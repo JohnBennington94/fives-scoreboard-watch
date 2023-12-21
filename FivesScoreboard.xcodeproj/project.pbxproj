@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A34261E72B33520D00FC9A36 /* FivesScoreboard Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A34261E62B33520D00FC9A36 /* FivesScoreboard Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A34261EC2B33520D00FC9A36 /* FivesScoreboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34261EB2B33520D00FC9A36 /* FivesScoreboardApp.swift */; };
+		A34261EE2B33520D00FC9A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34261ED2B33520D00FC9A36 /* ContentView.swift */; };
+		A34261F02B33520F00FC9A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34261EF2B33520F00FC9A36 /* Assets.xcassets */; };
+		A34261F32B33520F00FC9A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34261F22B33520F00FC9A36 /* Preview Assets.xcassets */; };
+		A342621A2B33559600FC9A36 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34262192B33559600FC9A36 /* Event.swift */; };
+		A342621C2B3355D200FC9A36 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342621B2B3355D200FC9A36 /* Team.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34261E82B33520D00FC9A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34261DA2B33520D00FC9A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34261E52B33520D00FC9A36;
+			remoteInfo = "FivesScoreboard Watch App";
+		};
+		A34261F92B33520F00FC9A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34261DA2B33520D00FC9A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34261E52B33520D00FC9A36;
+			remoteInfo = "FivesScoreboard Watch App";
+		};
+		A34262032B33520F00FC9A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34261DA2B33520D00FC9A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34261E52B33520D00FC9A36;
+			remoteInfo = "FivesScoreboard Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A342620F2B33520F00FC9A36 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A34261E72B33520D00FC9A36 /* FivesScoreboard Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A34261E02B33520D00FC9A36 /* FivesScoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FivesScoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34261E62B33520D00FC9A36 /* FivesScoreboard Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FivesScoreboard Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34261EB2B33520D00FC9A36 /* FivesScoreboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivesScoreboardApp.swift; sourceTree = "<group>"; };
+		A34261ED2B33520D00FC9A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A34261EF2B33520F00FC9A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34261F22B33520F00FC9A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A34261F82B33520F00FC9A36 /* FivesScoreboard Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FivesScoreboard Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34262022B33520F00FC9A36 /* FivesScoreboard Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FivesScoreboard Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34262192B33559600FC9A36 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A342621B2B3355D200FC9A36 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34261E32B33520D00FC9A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261F52B33520F00FC9A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261FF2B33520F00FC9A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A34261D92B33520D00FC9A36 = {
+			isa = PBXGroup;
+			children = (
+				A34261EA2B33520D00FC9A36 /* FivesScoreboard Watch App */,
+				A34261E12B33520D00FC9A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34261E12B33520D00FC9A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34261E02B33520D00FC9A36 /* FivesScoreboard.app */,
+				A34261E62B33520D00FC9A36 /* FivesScoreboard Watch App.app */,
+				A34261F82B33520F00FC9A36 /* FivesScoreboard Watch AppTests.xctest */,
+				A34262022B33520F00FC9A36 /* FivesScoreboard Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34261EA2B33520D00FC9A36 /* FivesScoreboard Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A342621E2B338A9000FC9A36 /* Views */,
+				A342621D2B33894500FC9A36 /* Models */,
+				A34261EB2B33520D00FC9A36 /* FivesScoreboardApp.swift */,
+				A34261EF2B33520F00FC9A36 /* Assets.xcassets */,
+				A34261F12B33520F00FC9A36 /* Preview Content */,
+			);
+			path = "FivesScoreboard Watch App";
+			sourceTree = "<group>";
+		};
+		A34261F12B33520F00FC9A36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A34261F22B33520F00FC9A36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A342621D2B33894500FC9A36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A34262192B33559600FC9A36 /* Event.swift */,
+				A342621B2B3355D200FC9A36 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A342621E2B338A9000FC9A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A34261ED2B33520D00FC9A36 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34261DF2B33520D00FC9A36 /* FivesScoreboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34262102B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard" */;
+			buildPhases = (
+				A34261DE2B33520D00FC9A36 /* Resources */,
+				A342620F2B33520F00FC9A36 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34261E92B33520D00FC9A36 /* PBXTargetDependency */,
+			);
+			name = FivesScoreboard;
+			productName = FivesScoreboard;
+			productReference = A34261E02B33520D00FC9A36 /* FivesScoreboard.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A34261E52B33520D00FC9A36 /* FivesScoreboard Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A342620C2B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch App" */;
+			buildPhases = (
+				A34261E22B33520D00FC9A36 /* Sources */,
+				A34261E32B33520D00FC9A36 /* Frameworks */,
+				A34261E42B33520D00FC9A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FivesScoreboard Watch App";
+			productName = "FivesScoreboard Watch App";
+			productReference = A34261E62B33520D00FC9A36 /* FivesScoreboard Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34261F72B33520F00FC9A36 /* FivesScoreboard Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34262132B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch AppTests" */;
+			buildPhases = (
+				A34261F42B33520F00FC9A36 /* Sources */,
+				A34261F52B33520F00FC9A36 /* Frameworks */,
+				A34261F62B33520F00FC9A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34261FA2B33520F00FC9A36 /* PBXTargetDependency */,
+			);
+			name = "FivesScoreboard Watch AppTests";
+			productName = "FivesScoreboard Watch AppTests";
+			productReference = A34261F82B33520F00FC9A36 /* FivesScoreboard Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34262012B33520F00FC9A36 /* FivesScoreboard Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34262162B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch AppUITests" */;
+			buildPhases = (
+				A34261FE2B33520F00FC9A36 /* Sources */,
+				A34261FF2B33520F00FC9A36 /* Frameworks */,
+				A34262002B33520F00FC9A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34262042B33520F00FC9A36 /* PBXTargetDependency */,
+			);
+			name = "FivesScoreboard Watch AppUITests";
+			productName = "FivesScoreboard Watch AppUITests";
+			productReference = A34262022B33520F00FC9A36 /* FivesScoreboard Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34261DA2B33520D00FC9A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A34261DF2B33520D00FC9A36 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A34261E52B33520D00FC9A36 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A34261F72B33520F00FC9A36 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A34261E52B33520D00FC9A36;
+					};
+					A34262012B33520F00FC9A36 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A34261E52B33520D00FC9A36;
+					};
+				};
+			};
+			buildConfigurationList = A34261DD2B33520D00FC9A36 /* Build configuration list for PBXProject "FivesScoreboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34261D92B33520D00FC9A36;
+			productRefGroup = A34261E12B33520D00FC9A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34261DF2B33520D00FC9A36 /* FivesScoreboard */,
+				A34261E52B33520D00FC9A36 /* FivesScoreboard Watch App */,
+				A34261F72B33520F00FC9A36 /* FivesScoreboard Watch AppTests */,
+				A34262012B33520F00FC9A36 /* FivesScoreboard Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34261DE2B33520D00FC9A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261E42B33520D00FC9A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34261F32B33520F00FC9A36 /* Preview Assets.xcassets in Resources */,
+				A34261F02B33520F00FC9A36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261F62B33520F00FC9A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34262002B33520F00FC9A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34261E22B33520D00FC9A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A342621C2B3355D200FC9A36 /* Team.swift in Sources */,
+				A34261EE2B33520D00FC9A36 /* ContentView.swift in Sources */,
+				A342621A2B33559600FC9A36 /* Event.swift in Sources */,
+				A34261EC2B33520D00FC9A36 /* FivesScoreboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261F42B33520F00FC9A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34261FE2B33520F00FC9A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34261E92B33520D00FC9A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34261E52B33520D00FC9A36 /* FivesScoreboard Watch App */;
+			targetProxy = A34261E82B33520D00FC9A36 /* PBXContainerItemProxy */;
+		};
+		A34261FA2B33520F00FC9A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34261E52B33520D00FC9A36 /* FivesScoreboard Watch App */;
+			targetProxy = A34261F92B33520F00FC9A36 /* PBXContainerItemProxy */;
+		};
+		A34262042B33520F00FC9A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34261E52B33520D00FC9A36 /* FivesScoreboard Watch App */;
+			targetProxy = A34262032B33520F00FC9A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A342620A2B33520F00FC9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A342620B2B33520F00FC9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A342620D2B33520F00FC9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FivesScoreboard Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FivesScoreboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JB099.FivesScoreboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A342620E2B33520F00FC9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FivesScoreboard Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FivesScoreboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JB099.FivesScoreboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A34262112B33520F00FC9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				INFOPLIST_KEY_CFBundleDisplayName = FivesScoreboard;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JB099.FivesScoreboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A34262122B33520F00FC9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				INFOPLIST_KEY_CFBundleDisplayName = FivesScoreboard;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JB099.FivesScoreboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34262142B33520F00FC9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JB099.FivesScoreboard-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FivesScoreboard Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FivesScoreboard Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A34262152B33520F00FC9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JB099.FivesScoreboard-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FivesScoreboard Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FivesScoreboard Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A34262172B33520F00FC9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JB099.FivesScoreboard-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FivesScoreboard Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A34262182B33520F00FC9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZM3N8G47K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JB099.FivesScoreboard-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FivesScoreboard Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34261DD2B33520D00FC9A36 /* Build configuration list for PBXProject "FivesScoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A342620A2B33520F00FC9A36 /* Debug */,
+				A342620B2B33520F00FC9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A342620C2B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A342620D2B33520F00FC9A36 /* Debug */,
+				A342620E2B33520F00FC9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34262102B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34262112B33520F00FC9A36 /* Debug */,
+				A34262122B33520F00FC9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34262132B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34262142B33520F00FC9A36 /* Debug */,
+				A34262152B33520F00FC9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34262162B33520F00FC9A36 /* Build configuration list for PBXNativeTarget "FivesScoreboard Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34262172B33520F00FC9A36 /* Debug */,
+				A34262182B33520F00FC9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A34261DA2B33520D00FC9A36 /* Project object */;
+}
